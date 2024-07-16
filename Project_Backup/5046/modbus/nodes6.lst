@@ -1,0 +1,20 @@
+{
+ "cfg":"nodelist",
+ "prt":"modbus",
+ "showUnreached":1,
+ "interPollTime":"15s",
+ "postData":"udp:224.0.0.113:25826",
+ "persistencyMinSaveInterval":600,
+ "nodes":[
+          {"a":"192.168.50.20:502:3",      "type":"SMU3",      "name":"B05_SMU03"},
+          {"a":"192.168.50.20:502:4",      "type":"SMU3",      "name":"B05_SMU04"},
+          {"a":"192.168.50.20:502:5",      "type":"SMU3",      "name":"B05_SMU05"},
+          {"a":"192.168.50.20:502:6",      "type":"SMU3",      "name":"B05_SMU06"},
+          {"a":"192.168.50.20:502:7",      "type":"SMU3",      "name":"B05_SMU07"},
+          {"a":"192.168.50.20:502:8",      "type":"SMU3",      "name":"B05_SMU08"},
+          {"a":"192.168.50.20:502:9",      "type":"SMU3",      "name":"B05_SMU09"},
+          {"a":"192.168.50.20:502:10",     "type":"SMU3",      "name":"B05_SMU10"},          
+          {"a":"192.168.50.20:502:11",     "type":"SMU3",      "name":"B05_SMU11"},
+          {"a":"192.168.50.20:502:12",     "type":"SMU3",      "name":"B05_SMU12"},    
+         ]
+}
